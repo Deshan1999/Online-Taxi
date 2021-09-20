@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.taxi.R;
+
 public class DriverActivity extends AppCompatActivity {
 
     @Override
@@ -12,3 +14,5 @@ public class DriverActivity extends AppCompatActivity {
         setContentView(R.layout.activity_driver);
     }
 }
+
+//test

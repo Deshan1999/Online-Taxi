@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "217037881072",
+    "firebase_url": "https://online-taxi-2010c-default-rtdb.firebaseio.com",
+    "project_id": "online-taxi-2010c",
+    "storage_bucket": "online-taxi-2010c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217037881072:android:e4a1ea68fd8bf548858c35",
+        "android_client_info": {
+          "package_name": "com.example.taxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217037881072-0jgt8eahog0bf1oc9um068g91pgalb46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz08i-dS-L0FcvHbPP7LlIhlny8_5upJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217037881072-0jgt8eahog0bf1oc9um068g91pgalb46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
