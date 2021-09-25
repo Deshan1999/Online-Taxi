@@ -63,6 +63,7 @@ public class DriverActivity extends AppCompatActivity {
 
                     Toast.makeText(getApplicationContext(), "Driver Inserted", Toast.LENGTH_SHORT).show();
 
+
                     Intent intent = new Intent(getApplicationContext(), Edit_.class);
                     intent.putExtra("username", dname.getText().toString());
                     intent.putExtra("email", demail.getText().toString());
