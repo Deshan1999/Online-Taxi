@@ -3,7 +3,6 @@ package com.example.taxi.driver_management;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.EditText;
 
 import com.example.taxi.R;
 
