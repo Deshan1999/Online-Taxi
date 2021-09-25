@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Taxi">
-        <activity android:name=".vehicle_management.Vehicle"></activity>
+        <activity
+            android:name=".driver_management.locations"
+            android:exported="true" />
+        <activity
+            android:name=".driver_management.edit"
+            android:exported="true" />
+        <activity android:name=".vehicle_management.Vehicle" />
         <activity android:name=".user.User" />
         <activity android:name=".review.Review" />
         <activity android:name=".payment_management.PaymentActivity" />
