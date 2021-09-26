@@ -29,8 +29,6 @@ public class DriverActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driver);
 
-
-
         dname = findViewById(R.id.enter_name);
         demail = findViewById(R.id.enter_email);
         dpassword = findViewById(R.id.enter_password);
@@ -56,14 +54,14 @@ public class DriverActivity extends AppCompatActivity {
 
                 if (name.isEmpty()||email.isEmpty()||password.isEmpty()||address.isEmpty()||phone.isEmpty()||vehiclid.isEmpty()) {
                     Toast.makeText(getApplicationContext(), "Please fill all Fields", Toast.LENGTH_SHORT).show();
-
                 }else{
-                    com.example.taxi.driver_management.TaxiDriver taxiDriver = new com.example.taxi.driver_management.TaxiDriver(name, email, password, address, phone,vehiclid);
+                    com.example.taxi.driver_management.TaxiDriver taxiDriver =
+                            new com.example.taxi.driver_management.TaxiDriver(name, email, password, address, phone,vehiclid);
                     databaseReference.child(name).setValue(taxiDriver);
 
                     Toast.makeText(getApplicationContext(), "Driver Inserted", Toast.LENGTH_SHORT).show();
 
-                    Intent intent = new Intent(getApplicationContext(), Edit_.class);
+                    Intent intent = new Intent(getApplicationContext(), edit.class);
                     intent.putExtra("username", dname.getText().toString());
                     intent.putExtra("email", demail.getText().toString());
                     intent.putExtra("password", dphone.getText().toString());
@@ -74,6 +72,7 @@ public class DriverActivity extends AppCompatActivity {
                 }
             }
         });
+
 
 
 

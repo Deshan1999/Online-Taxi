@@ -28,7 +28,6 @@ public class edit extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit);
 
-
         dname = findViewById(R.id.enter_name);
         demail = findViewById(R.id.enter_email);
         dpassword = findViewById(R.id.enter_password);
@@ -68,7 +67,8 @@ public class edit extends AppCompatActivity {
                 String phone = dphone.getText().toString();
                 String vehiclid = dvehicle.getText().toString();
 
-                com.example.onlinetaxi.TaxiDriver taxiDriver = new com.example.onlinetaxi.TaxiDriver(name, email, password, address, phone,vehiclid);
+                com.example.taxi.driver_management.TaxiDriver taxiDriver =
+                        new com.example.taxi.driver_management.TaxiDriver(name, email, password, address, phone,vehiclid);
                 databaseReference.child(name).setValue(taxiDriver);
 
                 Toast.makeText(getApplicationContext(), "Driver Details Updated", Toast.LENGTH_SHORT).show();
