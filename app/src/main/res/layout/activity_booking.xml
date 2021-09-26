@@ -31,12 +31,13 @@
             app:layout_constraintVertical_bias="0.702" />
 
         <EditText
-            android:id="@+id/from"
+            android:id="@+id/from1"
             android:layout_width="164dp"
             android:layout_height="48dp"
             android:ems="10"
+            android:hint="From"
             android:inputType="textPersonName"
-            android:text="From"
+            android:text=" "
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -63,8 +64,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Time"
             android:inputType="textPersonName"
-            android:text="Time"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -77,8 +78,8 @@
             android:layout_width="402dp"
             android:layout_height="56dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Phone Number"
+            android:hint="Phone Number"
+            android:inputType="phone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -107,8 +108,8 @@
             android:layout_width="402dp"
             android:layout_height="56dp"
             android:ems="10"
+            android:hint="Full Name"
             android:inputType="textPersonName"
-            android:text="Full Name"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -121,8 +122,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text=" Date"
+            android:hint="Date"
+            android:inputType="date"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -142,45 +143,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.96" />
 
-        <RadioButton
-            android:id="@+id/car"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" Car"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.135"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.775" />
-
-        <RadioButton
-            android:id="@+id/bike"
-            android:layout_width="84dp"
-            android:layout_height="49dp"
-            android:text=" Bike"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.143"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.834" />
-
-        <RadioButton
-            android:id="@+id/tuk"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" Tuk Tuk"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.146"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.89" />
-
         <Button
             android:id="@+id/cancel"
             android:layout_width="wrap_content"
@@ -194,6 +156,35 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.96" />
+
+        <RadioGroup
+            android:layout_width="200dp"
+            android:layout_height="123dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.303"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.871" >
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text=" Car" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Bike" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Tuk Tuk" />
+        </RadioGroup>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -216,8 +207,9 @@
         android:layout_width="211dp"
         android:layout_height="43dp"
         android:ems="10"
+        android:hint="To"
         android:inputType="textPersonName"
-        android:text="To"
+        android:text=" "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.92"
@@ -230,7 +222,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="datetime"
         android:text="Time"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,5 +1,7 @@
 package com.example.taxi.booking_management;
 
+import com.example.taxi.vehicle_management.Vehicle;
+
 public class booking {
     String fullName;
     String phoneNum;
@@ -7,14 +9,16 @@ public class booking {
     String time;
     String from;
     String to;
+    String Vehicle;
 
-    public booking(String fullName, String phoneNum, String date, String time, String from, String to) {
+    public booking(String fullName, String phoneNum, String date, String time, String from, String to, String Vehicle) {
         this.fullName = fullName;
         this.phoneNum = phoneNum;
         this.date = date;
         this.time = time;
         this.from = from;
         this.to = to;
+        this.Vehicle = Vehicle;
     }
 
     public booking() {
@@ -64,6 +68,16 @@ public class booking {
     public void setto(String to) {
         this.to = to;
     }
+
+
+    public String getVehicle() {
+        return   Vehicle;
+    }
+
+    public void setVehicle(String Vehicle) {
+        this.Vehicle = Vehicle;
+    }
+
 
 
 }
