@@ -58,7 +58,7 @@ public class DriverActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Please fill all Fields", Toast.LENGTH_SHORT).show();
 
                 }else{
-                    com.example.onlinetaxi.TaxiDriver taxiDriver = new com.example.onlinetaxi.TaxiDriver(name, email, password, address, phone,vehiclid);
+                    com.example.taxi.driver_management.TaxiDriver taxiDriver = new com.example.taxi.driver_management.TaxiDriver(name, email, password, address, phone,vehiclid);
                     databaseReference.child(name).setValue(taxiDriver);
 
                     Toast.makeText(getApplicationContext(), "Driver Inserted", Toast.LENGTH_SHORT).show();
