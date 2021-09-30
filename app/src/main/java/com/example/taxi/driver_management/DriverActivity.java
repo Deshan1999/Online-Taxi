@@ -35,7 +35,7 @@ public class DriverActivity extends AppCompatActivity {
         daddress = findViewById(R.id.enter_address);
         dphone = findViewById(R.id.enter_phone_number);
         dvehicle = findViewById(R.id.enter_vehicle_number);
-        res =findViewById(R.id.res);
+        res =findViewById(R.id.ress);
         button = findViewById(R.id.update);
 
         button.setOnClickListener(new View.OnClickListener(){

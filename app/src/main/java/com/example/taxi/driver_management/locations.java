@@ -7,9 +7,13 @@ import com.example.taxi.R;
 
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 
 public class locations extends AppCompatActivity {
+
+
+    TextView from,where,pnumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +31,16 @@ public class locations extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
 //set the spinners adapter to the previously created one.
         dropdown.setAdapter(adapter);
+
+
+
+        from = findViewById(R.id.from);
+        where = findViewById(R.id.where);
+        pnumber = findViewById(R.id.pnum);
+
+        intent intent = getIntent();
+        intent.getStringextra( from :"",from)
+
 
     }
 }
