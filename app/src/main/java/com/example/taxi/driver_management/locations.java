@@ -11,10 +11,14 @@ import android.widget.Spinner;
 
 public class locations extends AppCompatActivity {
 
+
+    TextView from,where,pnumber;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_locations);
+
 
 
 
@@ -27,6 +31,15 @@ public class locations extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
 //set the spinners adapter to the previously created one.
         dropdown.setAdapter(adapter);
+
+
+        from = findViewById(R.id.from);
+        where = findViewById(R.id.where);
+        pnumber = findViewById(R.id.pnum);
+
+        intent intent = getIntent();
+        intent.getStringextra( from :"",from)
+
 
     }
 }
