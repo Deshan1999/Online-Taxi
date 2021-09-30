@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Taxi">
         <activity
+            android:name=".review.MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".driver_management.TaxiDriver"
             android:exported="true" />
         <activity
