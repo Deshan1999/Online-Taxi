@@ -12,6 +12,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
+import com.example.taxi.R;
+
 public class DriverActivity extends AppCompatActivity {
 
 
@@ -79,3 +81,5 @@ public class DriverActivity extends AppCompatActivity {
 
     }
 }
+
+//test

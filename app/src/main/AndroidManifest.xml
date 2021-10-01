@@ -24,10 +24,10 @@
         <activity android:name=".vehicle_management.Vehicle" />
         <activity android:name=".user.User" />
         <activity android:name=".review.Review" />
-        <activity android:name=".payment_management.PaymentActivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".driver_management.DriverActivity" />
         <activity android:name=".complain.ComplainActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".booking_management.AddBookingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
