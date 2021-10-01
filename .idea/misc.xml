@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sahan Rasanga/AndroidStudioProjects/Online-Taxi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/Sahan Rasanga/AndroidStudioProjects/Online-Taxi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/Sahan Rasanga/AndroidStudioProjects/Online-Taxi/app/src/main/res/layout/activity_complain.xml" value="0.26851851851851855" />
+        <entry key="..\:/Users/Sahan Rasanga/AndroidStudioProjects/Online-Taxi/app/src/main/res/layout/activity_driver.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Sahan Rasanga/AndroidStudioProjects/Online-Taxi/app/src/main/res/layout/activity_edit.xml" value="0.264" />
+        <entry key="..\:/Users/Sahan Rasanga/AndroidStudioProjects/Online-Taxi/app/src/main/res/layout/activity_locations.xml" value="0.26851851851851855" />
+        <entry key="..\:/Users/Sahan Rasanga/AndroidStudioProjects/Online-Taxi/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Sahan Rasanga/AndroidStudioProjects/Online-Taxi/app/src/main/res/layout/activity_taxi_driver.xml" value="0.25277777777777777" />
+        <entry key="..\:/Users/Sahan Rasanga/AndroidStudioProjects/Online-Taxi/app/src/main/res/layout/activity_vehicle.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/sudan/AndroidStudioProjects/Taxi/app/src/main/res/layout/activity_main2.xml" value="0.209375" />
+        <entry key="..\:/Users/sudan/AndroidStudioProjects/Taxi/app/src/main/res/layout/activity_review.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
