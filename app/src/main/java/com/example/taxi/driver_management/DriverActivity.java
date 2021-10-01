@@ -35,7 +35,6 @@ public class DriverActivity extends AppCompatActivity {
         daddress = findViewById(R.id.enter_address);
         dphone = findViewById(R.id.enter_phone_number);
         dvehicle = findViewById(R.id.enter_vehicle_number);
-        res =findViewById(R.id.ress);
         button = findViewById(R.id.update);
 
         button.setOnClickListener(new View.OnClickListener(){
@@ -50,7 +49,7 @@ public class DriverActivity extends AppCompatActivity {
                 String address = daddress.getText().toString();
                 String phone = dphone.getText().toString();
                 String vehiclid = dvehicle.getText().toString();
-                String ress = res.getText().toString();
+
 
                 if (name.isEmpty()||email.isEmpty()||password.isEmpty()||address.isEmpty()||phone.isEmpty()||vehiclid.isEmpty()) {
                     Toast.makeText(getApplicationContext(), "Please fill all Fields", Toast.LENGTH_SHORT).show();

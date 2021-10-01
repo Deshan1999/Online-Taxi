@@ -34,7 +34,7 @@ public class edit extends AppCompatActivity {
         daddress = findViewById(R.id.enter_address);
         dphone = findViewById(R.id.enter_phone_number);
         dvehicle = findViewById(R.id.enter_vehicle_number);
-        res =findViewById(R.id.res);
+
         update = findViewById(R.id.update);
         delete = findViewById(R.id.delete);
 
